@@ -9,6 +9,8 @@ namespace CalculatorApp
 {
     class Bindings : IBindings
     {
+        // TODO: Implement different languages. Maybe load the explaining text from files?
+        // Or have twice as many switch statements and have the switches be language dependant.
         private double GetInput()
         {
             double v;
