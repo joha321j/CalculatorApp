@@ -33,10 +33,11 @@ namespace CalculatorApp
             double[] numberArray;
             string[] inputArray;
             bool isNumber = false;
+            char[] charSplit = { ' ' };
             do
             {
                 Console.WriteLine("Indtast værdier, adskil med mellemrum.");
-                inputArray = Console.ReadLine().Split(' ');
+                inputArray = Console.ReadLine().Split(charSplit, StringSplitOptions.RemoveEmptyEntries);
                 numberArray = new double[inputArray.Length];
                 for (int i = 0; i < inputArray.Length; i++)
                 {
