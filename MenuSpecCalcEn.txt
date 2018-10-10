@@ -1,0 +1,10 @@
+My Calculator
+Use numbers to select menu items. Press 0 to exit.
+Add;add
+Subtract;subtract
+Multiply;multiply
+Divide;divide
+Sum;sum
+Minimum;minimum
+Maximum;maximum
+Average;average

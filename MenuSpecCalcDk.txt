@@ -1,0 +1,10 @@
+Min Lommeregner
+Brug tal til at vælge menupunkter. Tryk 0 for at afslutte.
+Læg sammen;add
+Træk fra;subtract
+Gange;multiply
+Divider;divide
+Sum;sum
+Minimum;minimum
+Maksimum;maximum
+Gennemsnit;average
